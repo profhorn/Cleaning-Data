@@ -40,4 +40,4 @@ smallData <- bigData[keepVars]
 tidyData <- ddply(smallData, .(activity,subjectID), numcolwise(mean))
 
 #save data set as a csv file
-write.csv(tidyData,'e:/temp/smartphone/tidy.csv')
+write.table(tidyData,file="e:/temp/tidydata.txt", row.names=FALSE)
