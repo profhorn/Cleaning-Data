@@ -12,6 +12,8 @@ The reasoning behind my selection of features is that the assignment explicitly 
 In short, for this derived dataset, these signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+------------------------------------------------------------------------------------------------------------------------------------
+
 'data.frame':	35 obs. of  81 variables:
  $ activity                     : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 2 2 2 2 ...
  
